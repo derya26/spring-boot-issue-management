@@ -1,7 +1,7 @@
 
-##PROJECT
+## PROJECT
 
-###POST
+### POST
 
 http://localhost:8080/api/v1/project
 
@@ -13,9 +13,9 @@ http://localhost:8080/api/v1/project
 }
 ```
 
-##ISSUE
+## ISSUE
 
-###POST
+### POST
 
 insert into issue (id,description,date) values(1, 'test', now())
 
@@ -43,7 +43,7 @@ http://localhost:8080/api/v1/issue
 
 https://github.com/swagger-api/swagger-core/wiki/Annotations
 
-##SWAGGER UI
+## SWAGGER UI
 For 3.0.0
 
 https://github.com/springfox/springfox/issues/3362#issuecomment-953568248
@@ -56,13 +56,13 @@ http://localhost:8080/swagger-ui/#
 
 spring.mvc.pathmatch.matching-strategy=ant-path-matcher
 
-##H2 DATABASE
+## H2 DATABASE
 
 http://localhost:8080/h2-console
 
 spring.h2.console.enabled=true
 
-##For Log
+## For Log
 debug=false 
 ######### Enable debug logs.
 trace=false 
@@ -78,7 +78,7 @@ logging.level.org.springframework.web=TRACE
 http://localhost:8080/versioning/1?version=1
 
 
-##projects.json 
+## projects.json 
 
 default records are added in json format.
 
